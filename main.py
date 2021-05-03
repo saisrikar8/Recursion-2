@@ -105,4 +105,45 @@ def main():
 if (__name__ == "__main__"):
 	main()
 
-	
+'''
+Access values in String
+- To access substrings, Use the square brackets for slicing along with index or indices to obtain your substrings
+
+var = "Hello"
+
+# Individual
+string:    |  H  |  e  |  l  |  l  |  o  |
+positive:  |  0  |  1  |  2  |  3  |  4  |
+negative:  |  -1 |  -2 | -3  |  -4 |  -5 |
+
+#Consecutive
+string:     | H | e | l | l | o |
+index:      0   1   2   3   4   5
+
+In case of printing consecutive character, it needs to start beginning index and colon, then ending index.
+
+If there is no ending index, the computer will print till the end of the string. 
+
+Similarly, if there is no beginning index, the computer assumes the index as 0 or the beginning of the string.
+
+ex) print "ello" from var:
+print (var[1:])
+
+List1 = ['a', "b", "g", "y", "j", "k", "h"]
+print(List1[1:4])
+
+string = "student"
+print(string[3:5])
+
+'''
+
+var1 = "Hello World!"
+var2 = "Python Programming"
+
+#1. print 'h' from var2
+print(var2[3])
+print(var2[-15])
+#2. print 'hi' from var1 and var2
+print(var1[0] + var2[15])
+print(var2[3] + var2[15])
+
